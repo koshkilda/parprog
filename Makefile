@@ -25,3 +25,4 @@ $(OBJ) : $(SRC)
 
 clean :
 	rm $(TARGET) $(PREF_OBJ)*.o
+	rm -r $(PREF_OBJ)
