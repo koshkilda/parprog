@@ -20,6 +20,7 @@ $(TARGET) : $(OBJ)
 	$(CC) $< $(CFLAGS) -lboost_thread -lboost_system -o $(TARGET)
 
 $(OBJ) : $(SRC)
+	mkdir -p $(PREF_OBJ)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean :
