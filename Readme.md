@@ -1,13 +1,13 @@
 
 # Запуск
 
-1. 
+1. Перейти в папку задания
 ```bash
-cd <project directory>
+cd <task directory>
 ```
 2. В файле Makefile заменить перменную TARGET (2 строка) на название файла из src/ (без расширения .cpp)
 
-3.
+3. Скомпилировать и запустить задачу
 ```bash
 make
 ./<src file name>
